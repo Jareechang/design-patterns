@@ -1,8 +1,8 @@
 ## Design patterns
 
 playing around with some design patterns 
+  
 
-        
 
 ### Factory pattern
         
@@ -14,9 +14,8 @@ useful when:
 - Generating different instances of objects (depending on environment we're in)
 - Objects or components that share properties  
 - Composing objects with instances of other objects  
-        
+  
 
-        
 
 ### Observer / PubSub pattern
 
@@ -39,10 +38,9 @@ This promotes loose coupling when multiple objects require use of an object
 method when change has occured. Rather than having object directly calling on methods
 directly, they subscribe to specific *task or activity* of another object and are 
 notified when it occurs.
+  
 
-        
 
-        
 ### Mixin 
 
 A mixin is a class that contains methods for use by other classes without having to be
