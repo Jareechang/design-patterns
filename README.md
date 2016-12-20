@@ -36,4 +36,14 @@ method when change has occured. Rather than having object directly calling on me
 directly, they subscribe to specific *task or activity* of another object and are 
 notified when it occurs.
 
+### Mixin 
+
+A mixin is a class that contains methods for use by other classes without having to be
+the parent of those other classes. They are typically described as "included" rather than "inherited".
+
+**Advantages:**  
+
+- Allows for multiple inheritance without semantics of multiple inheritance
+- Code reusability
+
 
