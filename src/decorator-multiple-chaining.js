@@ -36,7 +36,9 @@ memory(engraving(insurance(mb)))
 console.log('total cost with memory, engraving and insurance: %s', mb.cost())
 
 for (let k in mb) {
-    console.log(mb[k].toString())
+    if (mb.hasOwnProperty(k)) {
+        console.log(mb[k].toString())
+    }
 }
 
 
