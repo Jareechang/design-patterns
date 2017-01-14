@@ -61,6 +61,13 @@ the target class with additional functionality.
 It is similar to sub-classing, except in sub-classing, functionality must be added on compile time. Whereas, for decorators
 they are run-time. Very useful in making extensions dynamically for individual objects.  
 
+**useful links:**
+
+- [Stackoverflow - decorator pattern versus sub classing](http://stackoverflow.com/a/4843039/5699700)  
+- [Reddit - ELI5 decorator in python](https://www.reddit.com/r/Python/comments/2lrhp5/could_someone_give_me_an_eli5_for_decorators/clxgkce/)  
+
+
+
 
 
 
