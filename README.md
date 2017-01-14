@@ -52,3 +52,17 @@ the parent of those other classes. They are typically described as "included" ra
 - Code reusability
 
 
+### Decorator 
+
+Decorators are essentially a princple of higher order programming. Where they take in a function as argument
+and return a new function. They are very useful for pre- and/or post- processing of methods in your code or extending (decorating)
+the target class with additional functionality.
+
+It is similar to sub-classing, except in sub-classing, functionality must be added on compile time. Whereas, for decorators
+they are run-time. Very useful in making extensions dynamically for individual objects.  
+
+
+
+
+
+
